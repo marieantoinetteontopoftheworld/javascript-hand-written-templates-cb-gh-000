@@ -3,7 +3,11 @@ function addComment() {
   event.preventDefault(); //!
   var bodyText = document.getElementById("commentText").value;
   var commenter = document.getElementById("commenterName").value;
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> a0f93f4cc29065e04592abe70466a9ef64a348ef
   var commentBody = createCommentBody(bodyText);
   var commenterLabel = createCommenterLabel(commenter);
   postNewComment(commentBody, commenterLabel);
