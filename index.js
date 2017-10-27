@@ -32,7 +32,7 @@ function createDateLabel() {
   var date = document.createElement("p");
   date.innerHTML = Date.now;
 
-  date.appendChild("date");
+  date.appendChild(date);
   return date;
 }
 
