@@ -29,12 +29,11 @@ function createCommenterLabel(commenter) {
 }
 
 function createDateLabel() {
-  var dateDiv = document.createElement("div");
   var date = document.createElement("p");
   date.innerHTML = Date.now;
 
-  dateDiv.appendChild("date");
-  return dateDiv;
+  date.appendChild("date");
+  return date;
 }
 
 function postNewComment(body, commenter, date) {
@@ -44,4 +43,4 @@ function postNewComment(body, commenter, date) {
   newCommentDiv.appendChild(commenter);
   newCommentDiv.appendChild(date);
   commentsDiv.appendChild(newCommentDiv);
-} 
+}
