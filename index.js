@@ -44,4 +44,4 @@ function postNewComment(body, commenter, date) {
   newCommentDiv.appendChild(commenter);
   newCommentDiv.appendChild(date);
   commentsDiv.appendChild(newCommentDiv);
-}
+} 
