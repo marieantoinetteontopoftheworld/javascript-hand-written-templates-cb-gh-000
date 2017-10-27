@@ -37,10 +37,11 @@ function createDateLabel() {
   return dateDiv;
 }
 
-function postNewComment(body, commenter) {
+function postNewComment(body, commenter, date) {
   var commentsDiv = document.getElementById("comments");
   var newCommentDiv = document.createElement("div");
   newCommentDiv.appendChild(body);
   newCommentDiv.appendChild(commenter);
+  newCommentDiv.appendChild(date);
   commentsDiv.appendChild(newCommentDiv);
 }
