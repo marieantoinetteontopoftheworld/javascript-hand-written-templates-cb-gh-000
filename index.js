@@ -30,7 +30,7 @@ function createCommenterLabel(commenter) {
 
 function createDateLabel() {
   var date = document.createElement("p");
-  date.innerHTML = Date.now().toDateString();
+  date.innerHTML = Date.now().toDateString;
 
   return date;
 }
