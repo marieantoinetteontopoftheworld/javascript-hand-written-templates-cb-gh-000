@@ -5,7 +5,8 @@ function addComment() {
 
   var commentBody = createCommentBody(bodyText);
   var commenterLabel = createCommenterLabel(commenter);
-  postNewComment(commentBody, commenterLabel);
+  var dateLable = createDateLabel();
+  postNewComment(commentBody, commenterLabel, dateLabel);
 }
 
 function createCommentBody(comment) {
