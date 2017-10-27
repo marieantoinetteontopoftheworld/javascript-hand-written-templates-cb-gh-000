@@ -1,4 +1,5 @@
 function addComment() {
+  event.preventDefault(); //!
   var bodyText = document.getElementById("commentText").value;
   var commenter = document.getElementById("commenterName").value;
 
