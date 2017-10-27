@@ -27,6 +27,11 @@ function createCommenterLabel(commenter) {
   return commenterLabel;
 }
 
+function createDateLabel() {
+  var dateDiv = document.createElement("div");
+  var date = Date.now();
+}
+
 function postNewComment(body, commenter) {
   var commentsDiv = document.getElementById("comments");
   var newCommentDiv = document.createElement("div");
